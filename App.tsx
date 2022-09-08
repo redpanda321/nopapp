@@ -1,7 +1,7 @@
-import React, { useState, useReducer, useEffect } from 'react';
-import { ThemeProvider } from 'react-native-elements';
-import { useColorScheme } from 'react-native-appearance';
-import RootNavigator from './src/components/AppLoading';
+import React, { useState } from 'react';
+import { ThemeProvider, createTheme } from '@rneui/themed';
+import RootNavigator from './src/navigation/RootNavigator';
+
 import { cacheImages, cacheFonts } from './src/helpers/AssetsCaching';
 import vectorFonts from './src/helpers/vector-fonts';
 
